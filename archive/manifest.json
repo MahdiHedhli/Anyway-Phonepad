@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "preserved_date": "2026-10-11",
+  "repository": "MahdiHedhli/Anyway-Phonepad",
+  "source": "Original conversation uploads, matched by SHA-256 to existing copies on the owner's computer.",
+  "files": [
+    {
+      "path": "manuals/PhonePad.pdf",
+      "original_filename": "PhonePad.pdf",
+      "size_bytes": 1711151,
+      "sha256": "bc4028036707b5bc3672eb050f70a1207d075840bd03c6b0b253607673838763",
+      "kind": "pdf",
+      "pages": 2,
+      "provenance": "User-uploaded original; supplied in conversation following the linked FCC filing. Independent byte-for-byte match to the FCC server has not been checked.",
+      "source_reference": "https://fccid.io/2AYTA-S2/User-Manual/User-manual-5100441"
+    },
+    {
+      "path": "manuals/AnyWare PhonePad PhoneBook Manual Manuel Tablette.pdf",
+      "original_filename": "AnyWare PhonePad PhoneBook Manual Manuel Tablette.pdf",
+      "size_bytes": 1628153,
+      "sha256": "9b494c0ba6033058e50e1370987ffa33ee68540d137128d5e727bce69f12efb5",
+      "kind": "pdf",
+      "pages": 31,
+      "provenance": "User-uploaded original Anyware Products User Manual. Original download URL not supplied."
+    },
+    {
+      "path": "software/Anyware_1.1.6145_APKPure.apk",
+      "original_filename": "Anyware_1.1.6145_APKPure.apk",
+      "size_bytes": 25055129,
+      "sha256": "ccb746976d5947837fc655813cffcbe48caee178bce22225022f9f428febc9e9",
+      "kind": "apk",
+      "provenance": "User-uploaded APKPure copy. Version in filename is not independently verified package metadata.",
+      "authenticity": "Unverified; no vendor signature comparison or security audit performed.",
+      "execution": "Not installed or executed during preservation.",
+      "zip_entries": 1621,
+      "zip_crc_check": "passed (not an authenticity/security check)"
+    }
+  ],
+  "firmware_binary_recovered": false
+}

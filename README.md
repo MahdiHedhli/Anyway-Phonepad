@@ -8,7 +8,7 @@ Operation Declutter project. Two battery-equipped PhonePads owned; owner reports
 - `PhonePad.pdf`: two-page PhonePad leaflet supplied by owner following this FCC reference: https://fccid.io/2AYTA-S2/User-Manual/User-manual-5100441 . Exact hardware-revision correspondence remains unverified.
 - `Anyware_1.1.6145_APKPure.apk`: owner-supplied Android application. Filename version is not independently verified package metadata. Treat as untrusted until static inspection and signature verification.
 
-**Preservation status:** this commit contains notes only. The PDFs and APK have NOT been copied into this repository. Conversation attachments are not an independent permanent backup. Firmware binaries have not been recovered.
+**Preservation status (2026-10-11):** both original PDF manuals and the original uploaded APK are now stored directly in [archive/](archive/README.md), with [SHA-256 checksums](archive/SHA256SUMS) and a [provenance manifest](archive/manifest.json). The files match the original uploads byte-for-byte by SHA-256. APK signature/authenticity and security review remain pending. Firmware binaries have not been recovered.
 
 ## Confirmed from the 31-page manual
 
@@ -37,7 +37,7 @@ PhoneBook findings do not establish PhonePad chipset identity or firmware interc
 
 ## Next investigation, deferred
 
-1. Independently archive original PDFs/APK with SHA-256, source provenance and signature metadata where applicable.
+1. Original PDFs/APK archived with SHA-256 and provenance; next verify APK package metadata and signing certificate. See [archive/](archive/README.md).
 2. Inspect APK statically for firmware-update endpoints, model identifiers, package format and integrity checks. Do not install on a trusted phone or trigger an update merely to observe it.
 3. Characterize USB and Bluetooth separately in each input/mode; do not assume touch is standard USB HID, especially given the manual's PC limitation.
 4. Identify hardware and obtain recoverable backups before firmware changes. Preserve one unit unchanged.
