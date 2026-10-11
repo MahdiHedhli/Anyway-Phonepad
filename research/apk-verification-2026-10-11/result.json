@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-11",
+  "artifact": "archive/software/Anyware_1.1.6145_APKPure.apk",
+  "file_sha256": "ccb746976d5947837fc655813cffcbe48caee178bce22225022f9f428febc9e9",
+  "size_bytes": 25055129,
+  "package": "com.anyware.appctrl",
+  "version_code": "35",
+  "version_name": "1.1.6145",
+  "min_sdk": "23",
+  "target_sdk": "29",
+  "signer_certificate_sha256": "e45233c203615e64c28ee189e9bb44fc31755b31f56d2a0c71197981f875bb32",
+  "signer_certificate_sha1": "49ecb42c0f43b55585273b47dcb044de240c9bae",
+  "signer_dn": "O=GD, L=SZ, C=CN",
+  "verification": "PASS with warnings; v1 only. No v2/v3/v3.1/v4 or SourceStamp verified.",
+  "unsigned_metadata_warning_count": 22,
+  "permissions_unique": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_DOWNLOAD_MANAGER",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.CAMERA",
+    "android.permission.CHANGE_CONFIGURATION",
+    "android.permission.DISABLE_KEYGUARD",
+    "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_TASKS",
+    "android.permission.INTERACT_ACROSS_USERS",
+    "android.permission.INTERNET",
+    "android.permission.KILL_BACKGROUND_PROCESSES",
+    "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+    "android.permission.PACKAGE_USAGE_STATS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_LOGS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_PRIVILEGED_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.RESTART_PACKAGES",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "toolchain": "Android SDK Build Tools 36.0.0, existing installation on owner Mac",
+  "commands": {
+    "apksigner.txt": {
+      "command": [
+        "apksigner",
+        "verify",
+        "--verbose",
+        "--print-certs",
+        "archive/software/Anyware_1.1.6145_APKPure.apk"
+      ],
+      "exit_code": 0
+    },
+    "badging.txt": {
+      "command": [
+        "aapt",
+        "dump",
+        "badging",
+        "archive/software/Anyware_1.1.6145_APKPure.apk"
+      ],
+      "exit_code": 0
+    },
+    "permissions.txt": {
+      "command": [
+        "aapt",
+        "dump",
+        "permissions",
+        "archive/software/Anyware_1.1.6145_APKPure.apk"
+      ],
+      "exit_code": 0
+    }
+  },
+  "vendor_authenticity": "Not established: no independently trusted vendor certificate or original-store APK available for comparison.",
+  "malware_assessment": "Not performed; signature verification does not establish benign behavior.",
+  "runtime_compatibility": "Not tested. No installation, execution, or device firmware changes.",
+  "new_apk_recovered": false,
+  "newer_release_found": false
+}

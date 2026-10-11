@@ -42,3 +42,7 @@ PhoneBook findings do not establish PhonePad chipset identity or firmware interc
 3. Characterize USB and Bluetooth separately in each input/mode; do not assume touch is standard USB HID, especially given the manual's PC limitation.
 4. Identify hardware and obtain recoverable backups before firmware changes. Preserve one unit unchanged.
 5. Evaluate native custom userspace versus an added SBC only after chipset, memory, power, display and touch paths are known.
+
+## APK verification
+
+[Static APK verification and replacement search (2026-10-11)](research/apk-verification-2026-10-11/README.md): archived version 1.1.6145/build 35 passes v1 signature verification with metadata warnings. No newer or better-provenance replacement was recovered; vendor authenticity and runtime safety remain unverified.

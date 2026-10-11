@@ -29,11 +29,16 @@
       "size_bytes": 25055129,
       "sha256": "ccb746976d5947837fc655813cffcbe48caee178bce22225022f9f428febc9e9",
       "kind": "apk",
-      "provenance": "User-uploaded APKPure copy. Version in filename is not independently verified package metadata.",
-      "authenticity": "Unverified; no vendor signature comparison or security audit performed.",
+      "provenance": "User-uploaded APKPure copy. Package metadata independently verified with aapt on 2026-10-11.",
+      "authenticity": "Cryptographic v1 signature verification passed with metadata warnings. Vendor signer identity and software safety remain unverified.",
       "execution": "Not installed or executed during preservation.",
       "zip_entries": 1621,
-      "zip_crc_check": "passed (not an authenticity/security check)"
+      "zip_crc_check": "passed (not an authenticity/security check)",
+      "verification_report": "../research/apk-verification-2026-10-11/README.md",
+      "package": "com.anyware.appctrl",
+      "version_name": "1.1.6145",
+      "version_code": 35,
+      "signer_certificate_sha256": "e45233c203615e64c28ee189e9bb44fc31755b31f56d2a0c71197981f875bb32"
     }
   ],
   "firmware_binary_recovered": false

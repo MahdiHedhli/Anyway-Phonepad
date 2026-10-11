@@ -1,0 +1,37 @@
+[
+  {
+    "name": "vendor-http",
+    "url": "http://dl.anywaretek.com/anyware",
+    "status": 200,
+    "final_url": "http://dl.anywaretek.com/anyware/",
+    "content_type": "text/html",
+    "bytes": 8918
+  },
+  {
+    "name": "vendor-https",
+    "url": "https://dl.anywaretek.com/anyware",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'dl.anywaretek.com'. (_ssl.c:1082)>"
+  },
+  {
+    "name": "apkpure",
+    "url": "https://apkpure.net/anyware/com.anyware.appctrl/download",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "apkpure-com",
+    "url": "https://apkpure.com/anyware/com.anyware.appctrl/download",
+    "status": 200,
+    "final_url": "https://apkpure.com/anyware/com.anyware.appctrl/download",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 401146
+  },
+  {
+    "name": "wayback-cdx",
+    "url": "https://web.archive.org/cdx/search/cdx?url=dl.anywaretek.com/*&output=json&filter=statuscode:200&collapse=urlkey&limit=100",
+    "status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=dl.anywaretek.com/*&output=json&filter=statuscode:200&collapse=urlkey&limit=100",
+    "content_type": "application/json",
+    "bytes": 3,
+    "body": "[]\n"
+  }
+]
